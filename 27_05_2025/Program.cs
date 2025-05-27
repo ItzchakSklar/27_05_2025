@@ -12,7 +12,9 @@ namespace _27_05_2025
         {
             Weapon gun = new Weapon("gun", "China", 20);
             Commando ertyu = new Commando("Itzchak", "arial", "Hide");
-            ertyu.NameCode = "asdfg";
+            Console.WriteLine(gun.Balls);
+            gun.Shoot();
+            Console.WriteLine(gun.Balls);
         }
     }
 }

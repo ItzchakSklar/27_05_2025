@@ -10,7 +10,7 @@ namespace _27_05_2025
     {
         string Name;
         string Manufacturer;
-        int Balls;
+        public int Balls;
         public Weapon(string name, string manufacturer, int balls) 
         { 
             Name = name;

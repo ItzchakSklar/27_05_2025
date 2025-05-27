@@ -20,6 +20,10 @@ namespace _27_05_2025
             NameCode = nameCode;
             Status = status ;
         }
+        public virtual void Attak()
+        {
+            Console.WriteLine("A regular soldier – the best ground combat warrior.");
+        }
         public void Walk()
         {
             Console.WriteLine("Walk");
